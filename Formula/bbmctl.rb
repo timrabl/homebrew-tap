@@ -2,7 +2,7 @@ class Bbmctl < Formula
   desc "CLI for the German Breitbandmessung broadband measurement API"
   homepage "https://github.com/timrabl/bbmctl"
   version "0.1.0"
-  license "AGPL-3.0"
+  license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
@@ -19,6 +19,7 @@ class Bbmctl < Formula
 
   def install
     bin.install "bbmctl"
+    generate_completions_from_executable(bin/"bbmctl", "completions")
   end
 
   test do
