@@ -5,19 +5,19 @@ class Bbmctl < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/timrabl/bbmctl/releases/download/v0.2.2/bbmctl-v0.2.2-aarch64-apple-darwin.tar.gz"
-      sha256 "f0687f5f27a46a1abac75dc3c69120cfa7aa7b2c38f49acb9fb2ba22327f6721"
+      url "https://github.com/timrabl/bbmctl/releases/download/v0.2.3/bbmctl-v0.2.3-aarch64-apple-darwin.tar.gz"
+      sha256 "a23b9a3a7bdd3e63e1a841bd6b756fc96540c2e2bffef2677e8f4dcdae20b7ac"
     end
     on_intel do
-      url "https://github.com/timrabl/bbmctl/releases/download/v0.2.2/bbmctl-v0.2.2-x86_64-apple-darwin.tar.gz"
-      sha256 "df803c974adb451d29dfe764f88e73bc1f67f1d670cc1b79348d21f547ba4305"
+      url "https://github.com/timrabl/bbmctl/releases/download/v0.2.3/bbmctl-v0.2.3-x86_64-apple-darwin.tar.gz"
+      sha256 "955f3ac09a6860aaef5dc18096de24783e54b3fc03d8fbb7fdad914b56b384c4"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/timrabl/bbmctl/releases/download/v0.2.2/bbmctl-v0.2.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c758afc9dc7a9e20615b5d7636d8459d0e523d00c38d5b164e9f115a7f26d305"
+      url "https://github.com/timrabl/bbmctl/releases/download/v0.2.3/bbmctl-v0.2.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1c7cf39b351f1c6106635769b984336eec1b0f8b174d46e7946f471ad62b3b9b"
     end
   end
 
